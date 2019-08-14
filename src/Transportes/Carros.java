@@ -16,6 +16,17 @@ public class Carros {
     private String cor;
     private String marca;
     private int capacidade;
+    private int portas;
+
+    //Método para retornar quantas portas
+    public int getPortas() {
+        return portas;
+    }
+
+    //Método para chamar quantas portas têm
+    public void setPortas(int portas) {
+        this.portas = portas;
+    }
 
     /*Metodo para retornar a cor do carro
     @return String-cor */
